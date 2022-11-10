@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#print Best School 10 time using while loop
+
+i=1
+
+while test $i -lt 11
+do
+	if test $i = 4
+	then
+		echo "bad luck"
+		elif test $i = 8
+		then
+			echo "good luck"
+			else
+				echo "Best School"
+	fi
+	i=$((i + 1))
+done
