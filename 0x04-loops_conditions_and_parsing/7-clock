@@ -7,7 +7,7 @@ while test $h -lt 12
 do
 	echo "Hour: $h"
 	m=1
-	while test $m -lt 59
+	while test $m -lt 60
 	do
 		echo "$m"
 		m=$(( m + 1 ))
