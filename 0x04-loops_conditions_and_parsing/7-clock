@@ -3,7 +3,7 @@
 #display minutes from 1 to 59
 
 h=0
-while test $h -lt 12
+while test $h -lt 13
 do
 	echo "Hour: $h"
 	m=1
