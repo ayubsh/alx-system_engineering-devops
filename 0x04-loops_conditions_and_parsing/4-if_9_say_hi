@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#print Best School 10 time using while loop
+
+i=0
+
+while test $i -lt 10
+do
+	if test $i = 9
+	then
+		echo "Hi"
+	fi
+
+	echo "Best School"
+	i=$((i + 1))
+done
