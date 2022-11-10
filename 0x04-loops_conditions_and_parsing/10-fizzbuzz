@@ -3,7 +3,7 @@
 
 i=1
 
-while test $i -lt 100
+while test $i -lt 101
 do
 	if [ $((i%3)) -eq 0 ] && [ $((i%5)) -eq 0 ]
 	then
