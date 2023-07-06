@@ -7,9 +7,9 @@ then
 	exit 1
 fi
 
-file_path="$1"
-ip="$2"
-username="$3"
-ssh_key="$4"
+file_path=$1
+ip=$2
+username=$3
+ssh_key=$4
 
 scp -o StrictHostKeyChecking=0 -i "$ssh_key" "$file_path" $username@$ip:~/" 
