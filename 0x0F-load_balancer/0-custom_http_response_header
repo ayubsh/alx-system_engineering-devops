@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# custome hhtp reponse header
+
+sudo apt update
+sudo apt install nginx -y
+
+echo "Hello Worl!" | sudo tee /var/www/html/index.html
+
+sudo sed -i "/server_name _; add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-enabled/default
+
+sudo nginx -t
+sudo service nginx restart
