@@ -1,0 +1,5 @@
+# Firewall
+
+- ufw
+- tcp
+- ports
